@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Index from "./components/index";
+import Footer from "./components/footer";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import Resume from "./pages/resume";
@@ -9,7 +10,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
-    if (currentPage === 'home') {
+    if (currentPage === 'about') {
       return <Home />;
     }
     if (currentPage === 'projects') {
@@ -25,6 +26,7 @@ function App() {
   <div>
   <Index currentPage={currentPage} handlePageChange={handlePageChange}/>
   {renderPage()}
+  <Footer />
   </div>
   )
 }

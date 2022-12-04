@@ -3,7 +3,7 @@ import React from 'react';
 export default function contact() {
    
     return (
-        <div>
+        <div class='body'>
         <p>contact</p>
         </div>
     );
