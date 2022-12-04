@@ -32,7 +32,7 @@ h1{
 
 .body{
   margin-top: -20px;
-  height: 100vh;
+  height: 1000;
   background-color: rgb(93, 162, 181);
 }
 
@@ -57,4 +57,44 @@ h1{
   width: 50%;
  height: 50%;
 
+}
+
+.project{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card1{
+  display: block;
+  background-color: rgba(255, 255, 255, 0);
+  width: 30vw;
+  height: 50vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  box-shadow: 10px 10px 5px rgba(20, 20, 20, 0.548);
+}
+
+.card a{
+  z-index: 1;
+  border-radius: 5px;
+   height: 100%;
+   width: 100%;
+}
+.card a img{
+   border-radius: 5px;
+   height: 100%;
+   width: 100%;
+}
+
+.tag{
+  box-shadow: 10px 10px 5px rgba(20, 20, 20, 0.548);
+  border-radius: 5px 0px 5px 0px;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  height: 30px;
+  background-color: rgb(92, 121, 122);
 }
