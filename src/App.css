@@ -4,6 +4,7 @@
 }
 .navList{
   margin-top: -20px;
+  margin-bottom: 0;
   padding-bottom: 10px;
   display: flex;
  justify-content: end;
@@ -23,6 +24,7 @@ h1{
 
 .header{
   background-color: rgb(72, 83, 83);
+  height: 140px;
 }
 
 .footer{
@@ -77,6 +79,17 @@ h1{
   box-shadow: 10px 10px 5px rgba(20, 20, 20, 0.548);
 }
 
+.card2{
+  display: block;
+  background-color: rgba(106, 198, 219, 0.774);
+  height: 35vh;
+  padding: 50;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 225px;
+}
+
 .card a{
   z-index: 1;
   border-radius: 5px;
@@ -97,4 +110,21 @@ h1{
   color: white;
   height: 30px;
   background-color: rgb(92, 121, 122);
+}
+
+.resume{
+  border-top: -40;
+}
+
+.T-Skills{
+  display: flex;
+  justify-content: space-between;
+}
+
+.T-Skills li{
+  font-size: 24px;
+}
+
+.p-Skills p{
+  font-size: 24px;
 }
