@@ -32,9 +32,13 @@ h1{
   background-color: rgb(72, 83, 83);
 }
 
+.footer a{
+  margin: 20px;
+}
+
 .body{
   margin-top: -20px;
-  height: 1000;
+  min-height: 100vh;
   background-color: rgb(93, 162, 181);
 }
 
@@ -88,6 +92,27 @@ h1{
   margin-left: 40px;
   margin-right: 40px;
   min-height: 225px;
+  box-shadow: 10px 10px 5px rgba(20, 20, 20, 0.548);
+}
+
+.card3{
+  min-height: 350px;
+  padding: 10px;
+  background-color: rgba(131, 201, 201, 0.808);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+width: 50vw;
+height: 50vh;
+box-shadow: 10px 10px 5px rgba(20, 20, 20, 0.548);
+}
+
+.card3 div{
+  display: flex;
+  justify-content: center;
+}
+.card3 button{
+  width: 200px;
 }
 
 .card a{
@@ -127,4 +152,14 @@ h1{
 
 .p-Skills p{
   font-size: 24px;
+}
+
+.contact{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.error{
+  background-color: red;
 }

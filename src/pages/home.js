@@ -10,9 +10,7 @@ export default function about() {
         </aside>
         <div class='a-m-img'>
             <img class='a-m-img-1' src={imgMason} alt='Image Of Mason Davis'></img>
-            <img class='a-m-img-1' src={imgMason} alt='Image Of Mason Davis'></img>
-            <img class='a-m-img-1' src={imgMason} alt='Image Of Mason Davis'></img>
-            <img class='a-m-img-1' src={imgMason} alt='Image Of Mason Davis'></img>
+            
         </div>
         </div>
     );
