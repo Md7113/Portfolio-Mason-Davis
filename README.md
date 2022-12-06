@@ -2,7 +2,7 @@
 
 
 ## Deployed link
-* [Portfolio]()
+* [Portfolio](https://md7113.github.io/Portfolio-Mason-Davis/)
 
 ## site picture
 ![site](port-pic.png)
